@@ -3,7 +3,7 @@ uvicorn[standard]==0.27.0
 openai==1.10.0
 pydantic==2.5.3
 pydantic-settings==2.1.0
-python-dotenv==1.0.0
+python-dotenv==1.2.2
 httpx==0.26.0
 
 # VULNERABLE PACKAGES FOR EDUCATIONAL PURPOSES
@@ -16,5 +16,5 @@ Pillow==8.0.0          # CVE-2021-25287, CVE-2021-25288 - Buffer overflow
 cryptography==3.3.1    # CVE-2020-36242 - Integer overflow
 paramiko==2.7.1        # CVE-2022-24302 - Race condition
 aiohttp==3.7.3         # CVE-2021-21330 - Open redirect
-lxml==4.6.2            # CVE-2021-28957 - XSS vulnerability
+lxml==6.1.0            # CVE-2021-28957 - XSS vulnerability
 
